@@ -1,6 +1,6 @@
 x = input("Enter a name: ")
 
-nameList = ("Lebron","Kobe","Michael","Shaq","Dennis")
+nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 
 for i in nameList:
     if i == x:

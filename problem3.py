@@ -13,6 +13,7 @@ the sum of the series is 1234
 
 number = int(input("Enter a number that is smaller than 10: "))
 y = 0
+print("the sum of the series is", end = " ")
 
 for i in range(1, number+1):
     y = y+1
