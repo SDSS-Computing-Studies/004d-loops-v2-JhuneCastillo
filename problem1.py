@@ -1,3 +1,22 @@
-widthBox = int(input("Enter the width of the box: "))
-lengthBox = int(input("Enter the length of the box: "))
+"""
+Problem1:
+inputs:
+int number
 
+outputs:
+
+
+example:
+enter a number:4
+****
+****
+****
+****
+"""
+
+
+x = int(input("Enter a number: "))
+y = ("*")
+
+for i in range(x):
+    print(y*x)

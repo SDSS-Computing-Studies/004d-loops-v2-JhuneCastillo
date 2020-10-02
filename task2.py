@@ -1,10 +1,13 @@
 x = input("Enter a username: ")
 
-players = ("Guile", "Cammy", "Ryu", "Ken", "Chun-Li")
+nameList = ("Lebron","Kobe","Michael","Shaq","Dennis")
 
-for i in players:
+for i in nameList:
     if i == x:
-        print(x + " matches")
-
+        print("That name is in the list")
+        
+if x not in nameList:
+        print("That name is not in the list")
+       
 
 
