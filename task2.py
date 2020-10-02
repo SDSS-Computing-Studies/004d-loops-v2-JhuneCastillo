@@ -1,4 +1,4 @@
-x = input("Enter a name: ")
+x = input("Enter a name: ").strip()
 
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 
